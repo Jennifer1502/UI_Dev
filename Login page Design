@@ -1,0 +1,43 @@
+<!DOCTYPE html><html> <head> <title>Login Page</title> <style> /* Center the login form */ #login-form { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
+
+  /* Style the form input fields */
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  /* Style the login button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+</style>
+</head> <body> <div id="login-form"> <h1>Login</h1> <form> <label for="username">Username:</label> <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Login</button>
+  </form>
+</div>
+</body> </html>
